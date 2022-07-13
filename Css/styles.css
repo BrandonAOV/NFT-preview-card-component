@@ -37,12 +37,13 @@ hr {
 }
 
 
-.container h3 {
-    color: hsl(0, 0%, 100%);
+.container h1 {
+    color:hsl(0, 0%, 100%);
     margin-bottom: .7em;
+    font-size: 20px;
 }
 
-.container h3:hover {
+.container h1:hover {
     color: hsl(180, 100%, 50%);
     cursor: pointer;
 }
@@ -73,6 +74,7 @@ hr {
     opacity: 0;
     top: 0;
     border-radius: 0.5em;
+    transition: opacity 0.5s;
 }
 
 .nft-container div:hover {
