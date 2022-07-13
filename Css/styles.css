@@ -1,0 +1,154 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;600;700&display=swap');
+
+/*All*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Outfit', sans-serif;
+}
+
+body {
+    height: 100vh;
+    background-color: hsl(217, 54%, 11%);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+hr {
+    color: hsl(215, 32%, 27%);
+}
+
+/*Mobile*/
+.container {
+    background-color: hsl(216, 50%, 16%);
+    width: 325px;
+    height: auto;
+    padding: 1.5em 1.5em 0 1.5em;
+    margin-bottom: 1em;
+    border-radius: 1em;
+}
+
+
+.container h3 {
+    color: hsl(0, 0%, 100%);
+    margin-bottom: .7em;
+}
+
+.container h3:hover {
+    color: hsl(180, 100%, 50%);
+    cursor: pointer;
+}
+
+.container > p {
+    font-weight: 300;
+    color: hsl(215, 51%, 70%);
+    font-weight: 300;
+    margin-bottom: 1em;
+    line-height: 1.5;
+}
+
+
+.nft-container {
+    position: relative;
+}
+
+.nft-container img {
+    border-radius: 0.5em;
+    margin-bottom: 1em;
+}
+
+.nft-container div {
+    background-color: hsla(180, 100%, 50%, 0.5);
+    position: absolute;
+    width: 100%;
+    height: calc(100% - 20px);
+    opacity: 0;
+    top: 0;
+    border-radius: 0.5em;
+}
+
+.nft-container div:hover {
+    opacity: 1;
+    cursor: pointer;
+}
+
+.nft-container div img {
+    position: absolute;
+    width: 3em;
+    left: calc(50% - 1.5em);
+    top: calc(50% - 1.5em);
+}
+
+.info-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.info-container div {
+    display: flex;
+    margin-bottom: 1em;
+}
+
+.ethereum-price {
+    color: hsl(180, 100%, 50%);
+    font-weight: 600;
+    white-space: nowrap;
+}
+
+.ethereum-price img {
+    margin-right: 0.3em;
+}
+
+.time-left {
+    color: hsl(215, 51%, 70%);
+    white-space: nowrap;
+}
+
+.creator {
+    display: flex;
+    color: hsl(215, 51%, 70%);
+    align-items: center;
+    margin-bottom: 1em;
+}
+
+.creator img {
+    width: 2em;
+    border-radius: 50%;
+    border: 1px solid white;
+    margin-top: 1em;
+    margin-right: .5em;
+}
+
+.creator p {
+    margin-top: 1em;
+}
+
+.creator span {
+    color: white;
+    margin-left: 2px;
+}
+
+.creator span:hover {
+    color: hsl(180, 100%, 50%);
+    cursor: pointer;
+}
+
+
+/*Added by Frontend Mentor*/
+.attribution {
+    font-size: 11px;
+    text-align: center;
+    color: whitesmoke;
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
